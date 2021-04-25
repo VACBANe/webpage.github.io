@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <title>Money Converter</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/calculator.css">
+    <link rel="stylesheet" type="text/css" href="css/money.css">
 </head>
 <body>
 <div class="container">
-    <h1>Money Converter</h1>
-    <p>Navigation</p>
-    <a href="index.html">Back to hub</a>
+    <header>
+        <a href="index.html">Back to hub</a>
+        <h1>Money Converter</h1>
+    </header>
     <p>Input UAH</p>
     <input type="number" placeholder="UAH" id="inputUah" oninput="convertUahIntoUsd(this.value)"
-           onchange="convertUAHintoUSD(this.value)">
-    <p>SELL: <span id="uahSellUsdOutput">0</span></p>
+               onchange="convertUahIntoUsd(this.value)">
+    <div class="grid">
+        <p>USD: <span id="uahSellUsdOutput">0</span></p>
+        <p>EUR: <span id="uahSellEurOutput">0</span></p>
+        <p>RUB: <span id="uahSellRurOutput">0</span></p>
+        <p>BTC: <span id="uahSellBtcOutput">0</span></p>
+    </div>
 </div>
 
 <script src="js/moneyScript.js"></script>

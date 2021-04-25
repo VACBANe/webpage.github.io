@@ -8,9 +8,15 @@
 </head>
 <body>
 <div class="container">
-    <h1>Main Page</h1>
+    <h1>Money Converter</h1>
     <p>Navigation</p>
     <a href="index.html">Back to hub</a>
+    <p>Input UAH</p>
+    <input type="number" placeholder="UAH" id="inputUah" oninput="convertUahIntoUsd(this.value)"
+           onchange="convertUAHintoUSD(this.value)">
+    <p>SELL: <span id="uahSellUsdOutput">0</span></p>
 </div>
+
+<script src="js/moneyScript.js"></script>
 </body>
 </html>

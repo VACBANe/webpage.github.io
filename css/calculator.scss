@@ -1,0 +1,29 @@
+.container {
+  width: 800px;
+  height: 360px;
+  h1 {
+    text-align: center;
+    font-size: 48px;
+  }
+
+  p {
+    font-size: 24px;
+    text-align: center;
+    margin: 40px;
+  }
+
+  a {
+    color: #ffffff;
+    background-color: #399097;
+    padding: 20px;
+    font-size: 18px;
+    margin: 0;
+    border: 2px solid #366d7d;
+    border-radius: 20px;
+    &:hover {
+      background-color: #599dba;
+      font-size: 20px;
+      transition: 1s;
+    }
+  }
+}

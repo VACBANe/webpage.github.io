@@ -1,0 +1,43 @@
+.container {
+  width: 800px;
+  height: 360px;
+}
+.container h1 {
+  text-align: center;
+  font-size: 48px;
+}
+.container p {
+  font-size: 24px;
+  text-align: center;
+  margin: 40px;
+}
+.container nav {
+  text-align: center;
+}
+.container nav a {
+  color: #ffffff;
+  background-color: #399097;
+  padding: 20px;
+  font-size: 18px;
+  margin: 0;
+  border: 2px solid #366d7d;
+}
+.container nav a:hover {
+  background-color: #599dba;
+  font-size: 20px;
+  transition: 1s;
+}
+.container nav a:first-child {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right: 2px solid #29666b;
+  margin-right: -5px;
+}
+.container nav a:last-child {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left: 2px solid #29666b;
+  margin-left: -5px;
+}
+
+/*# sourceMappingURL=hub.css.map */

@@ -14,7 +14,7 @@
     </header>
     <p>Input UAH</p>
     <input type="number" placeholder="UAH" id="inputUah" oninput="convertUahIntoUsd(this.value)"
-               onchange="convertUahIntoUsd(this.value)">
+               onchange="convertUahIntoUsd(this.value)" maxlength="14">
     <div class="grid">
         <p>USD: <span id="uahSellUsdOutput">0</span></p>
         <p>EUR: <span id="uahSellEurOutput">0</span></p>

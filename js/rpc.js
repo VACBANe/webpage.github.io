@@ -83,8 +83,13 @@ restartbtn.onclick = () => {
 }
 
 const endGame = (d) => {
-    d === 5 ? result.textContent = "You won! Congratulations!"
-        : result.textContent = "Fail...";
+    if(d === 5){
+        result.style.color = "green";
+        result.textContent = "You won! Congratulations!";
+    } else {
+        result.style.color = "red";
+        result.textContent = "Fail...";
+    }
     restartbtn.style.display = "block";
 }
 

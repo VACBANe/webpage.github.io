@@ -19,7 +19,6 @@ function play (value) {
     (botValue === 0)? bot.src = 'images/rock.png'
         : botValue === 1? bot.src = 'images/paper.png'
         : bot.src = 'images/scissors.png';
-    console.log(botValue);
     switch(value){
         case 0:
             if(botValue === 1) {
